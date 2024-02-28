@@ -1,100 +1,22 @@
 <html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <script src="./main.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Visitors</title>
     <link rel="stylesheet" href="./login.css">
-  </head>
-
-  <body>
-
-    <div class="search">
-      <div class="search-container">
-        <input class="input" type="text" placeholder="Name">
-        <svg viewBox="0 0 24 24" class="search__icon">
-          <g>
-            <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
-            </path>
-          </g>
-        </svg>
-      </div>
-      </div>   
-    
-      <div class="slide-container">
-        <div class="slide-content">
-          <div class="card">
-            <div class="image-content">
-              <span class="overlay"></span>
-              <div class="card-image">
-                <img src="/Man.jpg" alt="" class="card-img">
-              </div>
-            </div>
-            <div class="card-content">
-              <h2 class="name">Elad Magid</h2>
-              <h2 class="name">Coins: 50</h2>
-              <button class="button">Choose</button>
-            </div>
-          </div>
-        </div>
-      
-        <div class="slide-content">
-          <div class="card">
-            <div class="image-content">
-              <span class="overlay"></span>
-              <div class="card-image">
-                <img src="/woman2.jpg" alt="" class="card-img">
-              </div>
-            </div>
-            <div class="card-content">
-              <h2 class="name">Name 2</h2>
-              <h2 class="name">Coins: 50</h2>
-              <button class="button">Choose</button>
-            </div>
-          </div>
-        </div>
-      
-        <div class="slide-content">
-          <div class="card">
-            <div class="image-content">
-              <span class="overlay"></span>
-              <div class="card-image">
-                <img src="./Man2.jpg" alt="" class="card-img">
-              </div>
-            </div>
-            <div class="card-content">
-              <h2 class="name">Name 3</h2>
-              <h2 class="name">Coins: 50</h2>
-              <button class="button">Choose</button>
-            </div>
-          </div>
-        </div>
-      </div>
- 
-      <div class="slide-content">
-        <div class="card">
-          <div class="image-content">
-            <span class="overlay"></span>
-            <div class="card-image">
-              <img src="./Woman.jpg" alt="" class="card-img">
-            </div>
-          </div>
-          <div class="card-content">
-            <h2 class="name">Name 4</h2>
-            <h2 class="name">Coins: 50</h2>
-            <button class="button">Choose</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-  
-    <!-- צרו את הטופס בחירת אורח כאן מעל הסקריפט -->
-  
+    <script src="./main.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <span id="visitor-name"></span>
+    <div id="message"></div>
+</nav>
+   
+    <div id="placeholder"></div>
+    <dialog id="visitors-dialog"></dialog>
     <script src="./login.js"></script>
-  </body>
+</body>
+</html>
 
-  </html>
