@@ -1,5 +1,6 @@
 const form = document.getElementById("create-visitor-form");
 
+
     //let visitorNameInput;
 
     const validateFormInputs = () => {
@@ -26,7 +27,10 @@ const form = document.getElementById("create-visitor-form");
     if(!visitorExists()) {
         visitors.push(visitor);
         console.log("Visitor added successfully!");
-        
+        const visitorsJSON = JSON.stringify(visitors);
+        localStorage.setItem("visitors",visitorsJSON);
+        form.reset();
+        window.location.href = "./login.html"
     }
     else {
         console.log("Visitor already exists!");
@@ -42,17 +46,6 @@ const form = document.getElementById("create-visitor-form");
         }
         return exists;
       };
-
-
-
-
-
-
-
-
-
-
-
 
 
 
