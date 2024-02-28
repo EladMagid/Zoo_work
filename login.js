@@ -105,7 +105,7 @@ const dialog = document.querySelector("#visitors-dialog");
     const messageDiv = document.getElementById("message");
     
     if (currentVisitor) {
-        const disconnect = confirm(`There is already a selected guest (${currentVisitor.name}). Do you want to disconnect?`);
+        const disconnect = confirm(`${currentVisitor.name} is already a selected guest. Do you want to disconnect?`);
         if (disconnect) {
             localStorage.removeItem('currentVisitor');
             messageDiv.textContent = `Visitor ${currentVisitor.name} has been disconnected.`;
@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (currentVisitor) {
         visitorNameSpan.textContent = currentVisitor.name;
     } else {
-        visitorNameSpan.textContent = "You have not selected a user yet";
+        visitorNameSpan.textContent = "You must select a user";
     }
 });
 
