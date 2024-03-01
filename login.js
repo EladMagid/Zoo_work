@@ -6,7 +6,7 @@ let visitorsForView = [...visitors];
 const dialog = document.querySelector("#visitors-dialog");
 
 const getvisitorsHTMLCard = (visitor) => {
-  const template = getVisitorTemplate(visitor);
+const template = getVisitorTemplate(visitor);
    
   const wrapper = document.createElement("div");
   wrapper.className = "visitors-card";
@@ -25,15 +25,7 @@ const getCloseModalHTMLButton = () => {
   return closeButton;
 };
 
-const getChooseVisitorButton = (visitor) => {
-  const chooseButton = document.createElement("button");
-  chooseButton.innerText = "Choose Visitor";
-  chooseButton.addEventListener("click", () => {
-    dialog.close();
-    loginAsvisitor(visitor.name);
-  });
-  return chooseButton;
-};
+
   
 const getVisitorTemplate = (visitor) => {
   return `<div class="card"> 
@@ -135,6 +127,31 @@ function loginAsvisitor(visitorName) {
   window.addEventListener("load", () => {
     const currentVisitor = JSON.parse(localStorage.getItem('currentVisitor'));
     if (currentVisitor) {
-        message.textContent = `Welcome to the Zoo, ${currentVisitor.name}!`;
+       message.textContent = `Welcome to the Zoo, ${currentVisitor.name}!`;
     }
 });
+
+
+const getChooseVisitorButton = (visitor) => {
+  const chooseButton = document.createElement("button");
+  chooseButton.innerText = "Choose visitor";
+  chooseButton.className = "ChooseButtonV";
+  chooseButton.addEventListener("click", () => {
+    
+  });
+  return chooseButton;
+};
+
+
+
+const gotozooButton = () => {
+  const zooButton = document.createElement("button");
+  zooButton.innerText = "go to zoo";
+  zooButton.className = "Zbutton";
+  zooButton.addEventListener("click", () => {
+    window.location.href = "./zoo.html";
+  });
+  document.body.appendChild(zooButton);
+};
+
+gotozooButton();

@@ -11,7 +11,6 @@
     background-size: cover; /* or 'contain' */
     background-position: center; /* Adjust as needed */
     background-repeat: no-repeat;
-    
   }
 
 
@@ -127,6 +126,30 @@
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
+.Zbutton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Zbutton:hover {
+    background-color: #b6b6b6; /* Darker Green */
+  }
 
+.ChooseButtonV {
+    margin-left: 20px;
+}
 
 

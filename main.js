@@ -90,6 +90,7 @@ let animals = [
     height: 120,
     color: "brown",
     habitat: "land",
+    image: "Lion",
   },
   {
     name: "Elephant",
@@ -98,6 +99,7 @@ let animals = [
     height: 200,
     color: "grey",
     habitat: "land",
+    image: "Elephant",
   },
   {
     name: "Giraffe",
@@ -106,6 +108,7 @@ let animals = [
     height: 120,
     color: "brown",
     habitat: "land",
+    image:"Giraffe",
   },
   {
     name: "Tiger",
@@ -114,6 +117,7 @@ let animals = [
     height: 120,
     color: "brown",
     habitat: "land",
+    image:"Tiger",
   },
   {
     name: "Monkey",
@@ -122,6 +126,7 @@ let animals = [
     height: 120,
     color: "brown",
     habitat: "land",
+    image:"Monkey",
   },
   {
     name: "Kangaroo",
@@ -130,6 +135,7 @@ let animals = [
     height: 120,
     color: "brown",
     habitat: "land",
+    image:"Kangaroo",
   },
   {
     name: "Penguin",
@@ -138,6 +144,7 @@ let animals = [
     height: 120,
     color: "brown",
     habitat: "sea",
+    image:"Penguin",
   },
   {
     name: "Zebra",
@@ -146,6 +153,7 @@ let animals = [
     height: 120,
     color: "brown",
     habitat: "land",
+    image:"Zebra",
   },
   {
     name: "Cheetah",
@@ -154,8 +162,14 @@ let animals = [
     height: 120,
     color: "brown",
     habitat: "land",
+    image:"Cheetah",
   },
+
 ];
+
+
+
+
 
 // פונקציה זו טוענת עבורכם את המידע ההתחלתי של האפליקציה, במידה וקיים מידע בלוקל סטורג׳, היא תקח אותו משם
 // אל תשנו את הקוד בפונקציה הזו כדי לשמור על תקינות הטמפלייט
