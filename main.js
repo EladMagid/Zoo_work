@@ -90,7 +90,6 @@ let animals = [
     height: 120,
     color: "brown",
     habitat: "land",
-    image: "Lion",
   },
   {
     name: "Elephant",
@@ -99,7 +98,6 @@ let animals = [
     height: 200,
     color: "grey",
     habitat: "land",
-    image: "Elephant",
   },
   {
     name: "Giraffe",
@@ -108,7 +106,6 @@ let animals = [
     height: 120,
     color: "brown",
     habitat: "land",
-    image:"Giraffe",
   },
   {
     name: "Tiger",
@@ -116,8 +113,7 @@ let animals = [
     weight: 100,
     height: 120,
     color: "brown",
-    habitat: "land",
-    image:"Tiger",
+    habitat: "land", 
   },
   {
     name: "Monkey",
@@ -125,8 +121,7 @@ let animals = [
     weight: 100,
     height: 120,
     color: "brown",
-    habitat: "land",
-    image:"Monkey",
+    habitat: "land", 
   },
   {
     name: "Kangaroo",
@@ -134,8 +129,7 @@ let animals = [
     weight: 100,
     height: 120,
     color: "brown",
-    habitat: "land",
-    image:"Kangaroo",
+    habitat: "land",  
   },
   {
     name: "Penguin",
@@ -143,8 +137,7 @@ let animals = [
     weight: 100,
     height: 120,
     color: "brown",
-    habitat: "sea",
-    image:"Penguin",
+    habitat: "sea", 
   },
   {
     name: "Zebra",
@@ -153,7 +146,6 @@ let animals = [
     height: 120,
     color: "brown",
     habitat: "land",
-    image:"Zebra",
   },
   {
     name: "Cheetah",
@@ -162,7 +154,7 @@ let animals = [
     height: 120,
     color: "brown",
     habitat: "land",
-    image:"Cheetah",
+
   },
 
 ];
